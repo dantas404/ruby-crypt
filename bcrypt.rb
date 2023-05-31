@@ -16,5 +16,5 @@ rescue Errno::ENOENT
 
 end
 
-file_path = 'my_file.txt'
-encrypt_file(file_path)
+filePath = 'my_file.txt'
+encryptFile(file_path)
