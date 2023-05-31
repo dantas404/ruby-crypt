@@ -16,5 +16,6 @@ rescue Errno::ENOENT
 
 end
 
-filePath = 'my_file.txt'
+puts "Enter file path: "
+filePath = gets.chomp
 encryptFile(filePath)
